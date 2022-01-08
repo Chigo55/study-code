@@ -31,4 +31,5 @@ int main() {
 
     //printf("%d + %d = %d\n", a, b, a + b) 과 동일
     printf("%d + %d = %d\n", a, b, sum);
+    
 }

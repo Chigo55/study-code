@@ -1,6 +1,6 @@
-// char : 1byte Á¤¼öÇü (int : 4byte)
-// character : ¹®ÀÚ (¹Ý°¢ ¹®ÀÚ = ABCabc123_+?)
-//                 (Á¤°¢¹®ÀÚ = ÇÑ±Û, ÇÑÀÚ, ÀÏº»¾î µîµî)
+// char : 1byte ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ (int : 4byte)
+// character : ï¿½ï¿½ï¿½ï¿½ (ï¿½Ý°ï¿½ ï¿½ï¿½ï¿½ï¿½ = ABCabc123_+?)
+//                 (ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ = ï¿½Ñ±ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½Ïºï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½)
 
 #include <stdio.h>
 //int main() {
@@ -10,19 +10,20 @@
 //	printf("%c\n", 43); // "+" == 43
 //}
 
-// ASCII : American Standard Code (¹®ÀÚ-¼ýÀÚ)
+// ASCII : American Standard Code (ï¿½ï¿½ï¿½ï¿½-ï¿½ï¿½ï¿½ï¿½)
 
 int main() {
 	char a;
 	int b;
 
-	printf("¹®ÀÚ ÀÔ·Â : ");
+	printf("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 	scanf_s("%c", &a);
-	printf("%cÀÇ ASCII °ª : %d\n", a, a);
+	printf("%cï¿½ï¿½ ASCII ï¿½ï¿½ : %d\n", a, a);
 
 	/*------------------------------------------*/
 
-	printf("¼ýÀÚ ÀÔ·Â : ");
+	printf("ï¿½ï¿½ï¿½ï¿½ ï¿½Ô·ï¿½ : ");
 	scanf_s("%d", &b);
-	printf("%dÀÇ ASCII °ª : %c\n", b, b);
+	printf("%dï¿½ï¿½ ASCII ï¿½ï¿½ : %c\n", b, b);
+	
 }

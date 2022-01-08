@@ -3,7 +3,7 @@
 int main() {
 	int a1, b1;
 	
-	scanf_s("%d%d", &a1, &b1); // & : Æ÷ÀÎÅÍ
+	scanf_s("%d%d", &a1, &b1); // & : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	int sum1 = a1 + b1;
 	int sub1 = a1 - b1;
@@ -19,7 +19,7 @@ int main() {
 
 	float a2, b2;
 
-	scanf_s("%d%d", &a2, &b2); // & : Æ÷ÀÎÅÍ
+	scanf_s("%d%d", &a2, &b2); // & : ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 	float sum2 = a2 + b2;
 	float sub2 = a2 - b2;
@@ -30,4 +30,5 @@ int main() {
 	printf("%d - %d = %d\n", a2, b2, sub2);
 	printf("%d * %d = %d\n", a2, b2, div2);
 	printf("%d / %d = %d\n", a2, b2, quo2);
+	
 }

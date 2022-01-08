@@ -35,4 +35,5 @@ int main() {
     else {
         printf("n은 음수\n");
     }
+    
 }
